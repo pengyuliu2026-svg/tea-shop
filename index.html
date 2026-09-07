@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>松风茶事 · 中式茶馆</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="overrides.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="松风茶事首页">
+        <span class="brand-mark">松</span>
+        <span>松风茶事</span>
+      </a>
+      <nav aria-label="主导航">
+        <a class="active" href="#top">首页</a>
+        <a href="#tea">茶单</a>
+        <a href="#story">茶馆故事</a>
+        <a href="#space">雅室</a>
+      </nav>
+      <a class="reserve-link" href="#reserve">预约席位 <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> 一盏清欢，半日松风</p>
+          <h1>把日子<br />泡得<span>有滋味</span></h1>
+          <p class="intro">取山野之气，候一席静时。<br />在茶汤渐暖的片刻，重拾与自己的相处。</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#tea">寻一味好茶 <span>→</span></a>
+            <a class="text-link" href="#story">认识松风 <i>◌</i></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="茶席插画">
+          <div class="sun-disc"></div>
+          <svg class="mountains" viewBox="0 0 700 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-10 371C78 264 146 272 214 347C270 409 314 316 381 306C471 291 497 410 576 341C626 297 676 292 731 341V479H-10V371Z" fill="#BAC0AB" fill-opacity=".42"/>
+            <path d="M-35 403C73 337 129 359 197 398C282 446 333 350 407 363C485 377 540 455 635 385C673 357 708 365 740 386V477H-35V403Z" fill="#697561" fill-opacity=".42"/>
+            <path d="M397 120C435 168 425 213 464 254C486 276 510 282 532 281" stroke="#52604E" stroke-width="3" stroke-linecap="round"/>
+            <path d="M438 196C415 167 395 165 372 173" stroke="#52604E" stroke-width="3" stroke-linecap="round"/>
+            <path d="M431 181C454 153 480 148 498 158" stroke="#52604E" stroke-width="3" stroke-linecap="round"/>
+          </svg>
+          <div class="tea-table"></div>
+          <div class="teapot"><span class="lid"></span><span class="handle"></span><span class="spout"></span></div>
+          <div class="cup cup-one"></div><div class="cup cup-two"></div>
+          <div class="steam steam-one"></div><div class="steam steam-two"></div>
+          <span class="seal">松风<br />茶事</span>
+        </div>
+        <div class="vertical-note">二〇二六 · 初秋</div>
+        <a class="scroll-cue" href="#tea"><small>向下轻阅</small><span></span></a>
+      </section>
+
+      <section class="tea-section" id="tea">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span></span> 本季茶单</p><h2>寻味 · 山水之间</h2></div>
+          <p>一叶从山间来，经过水与火的相逢，<br />落在掌心，成为恰好的慰藉。</p>
+        </div>
+        <div class="tea-grid">
+          <article class="tea-card featured"><span class="card-no">01</span><div class="tea-illustration tea-oolong"><i></i><i></i><i></i></div><p>岩韵醇厚</p><h3>大红袍</h3><em>武夷山 · 乌龙茶</em><a href="#reserve">品饮此茶 <b>→</b></a></article>
+          <article class="tea-card"><span class="card-no">02</span><div class="tea-illustration tea-white"><i></i><i></i><i></i></div><p>清甜毫香</p><h3>白毫银针</h3><em>福鼎 · 白茶</em><a href="#reserve">品饮此茶 <b>→</b></a></article>
+          <article class="tea-card"><span class="card-no">03</span><div class="tea-illustration tea-green"><i></i><i></i><i></i></div><p>鲜爽兰香</p><h3>龙井</h3><em>西湖 · 绿茶</em><a href="#reserve">品饮此茶 <b>→</b></a></article>
+        </div>
+      </section>
+
+      <section class="story" id="story">
+        <div class="story-image"><div class="window"><span></span><span></span><span></span><span></span></div><div class="branch"></div></div>
+        <div class="story-copy"><p class="eyebrow"><span></span> 松风茶馆</p><h2>茶，是慢下来<br />的另一种语言</h2><p>我们相信，一盏茶的时间足以安放纷杂。松风隐于城中一隅，甄选时令好茶，也为每一位来客留一方安静的茶席。</p><a class="text-link" href="#space">走进茶馆 <i>→</i></a></div>
+      </section>
+
+      <section class="reserve" id="reserve"><p>今日茶席 · 尚余 6 席</p><h2>留一段时间，与茶相见</h2><a class="button primary" href="mailto:hello@songfeng-tea.cn">预约一席 <span>→</span></a></section>
+    </main>
+    <footer><span>松风茶事 · SONG FENG TEA HOUSE</span><span>上海市静安区安远路 66 号</span><span>每日 10:00 — 22:00</span></footer>
+  </body>
+</html>

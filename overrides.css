@@ -1,0 +1,8 @@
+/* A subdued lichen green lets the booking action sit naturally in the ink-toned panel. */
+.reserve .primary {
+  background: #78836c;
+}
+
+.reserve .primary:hover {
+  background: #99a38b;
+}
